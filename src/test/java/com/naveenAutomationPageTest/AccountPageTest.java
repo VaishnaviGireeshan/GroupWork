@@ -29,10 +29,10 @@ public class AccountPageTest extends TestBase {
 		loginPage = new LoginPage(wd, false).get();
 	}
 	
-	@Test
-	public void DummyTest1() {
-		Assert.assertEquals("Sandeep", "Sandeep");;
-	}
+
+		Assert.assertEquals("Sandeep", "Sandeep");
+		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		}
 
 	@Test
 	public void validateUserCanEditPersonalInfo() {
