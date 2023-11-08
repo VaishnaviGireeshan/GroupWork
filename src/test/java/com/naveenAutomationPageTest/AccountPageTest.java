@@ -26,12 +26,13 @@ public class AccountPageTest extends TestBase {
 		initialise();
 		loginPage = new LoginPage(wd, false).get();
 	}
-@Test
-	public void dummyTest1() {
 	
-	Assert.assertTrue(true);
-		
-	}
+	@Test
+	public void DummyTest1() {
+		Assert.assertEquals("Sandeep", "Sandeep");
+		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		}
+
 	@Test
 	public void validateUserCanEditPersonalInfo() {
 		// Login to the account
