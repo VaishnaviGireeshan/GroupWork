@@ -1,5 +1,7 @@
 package com.naveenAutomationPageTest;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -25,6 +27,11 @@ public class AccountPageTest extends TestBase {
 	public void launchBrowser() {
 		initialise();
 		loginPage = new LoginPage(wd, false).get();
+	}
+	
+	@Test
+	public void DummyTest1() {
+		Assert.assertEquals("Sandeep", "Sandeep");;
 	}
 
 	@Test
