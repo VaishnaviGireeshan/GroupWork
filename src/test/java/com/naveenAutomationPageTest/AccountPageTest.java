@@ -36,6 +36,7 @@ public class AccountPageTest extends TestBase {
 	@Test
 	public void DummyTest2() {
 		Assert.assertEquals("Sandeep", "Sandeep");
+		Assert.assertEquals("Amrinder", "Sandeep");
 		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
 		}
 	
