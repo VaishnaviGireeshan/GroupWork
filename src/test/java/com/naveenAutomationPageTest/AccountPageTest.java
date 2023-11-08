@@ -30,8 +30,16 @@ public class AccountPageTest extends TestBase {
 	public void dummyTest1() {
 	
 	Assert.assertTrue(true);
-		
+	
 	}
+
+@Test
+public void dummyTest2() {
+
+Assert.assertTrue(true);
+	
+}
+
 	@Test
 	public void validateUserCanEditPersonalInfo() {
 		// Login to the account
