@@ -32,6 +32,15 @@ public class AccountPageTest extends TestBase {
 		Assert.assertEquals("Sandeep", "Sandeep");
 		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
 		}
+	
+	@Test
+	public void DummyTest2() {
+		Assert.assertEquals("Sandeep", "Sandeep");
+		Assert.assertEquals("Amrinder", "Sandeep");
+		accountPage = (AccountPage) loginPage.submitLogin("TonyStark@gmail.com", "Tony12345");
+		}
+	
+	
 
 	@Test
 	public void validateUserCanEditPersonalInfo() {
